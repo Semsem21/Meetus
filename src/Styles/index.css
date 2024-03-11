@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===================== (*_*) ===================== */
+
+@layer components {
+	* {
+		font-family: cursive !important;
+	}
+}
+
+.wordspace {
+	word-spacing: -8px;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
